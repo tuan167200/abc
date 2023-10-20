@@ -62,3 +62,24 @@ img {
 img:hover {
     transform: scale(1.1);
 }
+#prev-button, #next-button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: #ff8c94; /* Màu hồng dễ thương */
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+#prev-button:hover, #next-button:hover {
+    background-color: #ff6670; /* Màu hồng nhạt khi hover */
+    transform: scale(1.05);
+}
+
+#prev-button:active, #next-button:active {
+    background-color: #ff444c; /* Màu hồng đậm khi nhấp */
+    transform: scale(0.95);
+}
